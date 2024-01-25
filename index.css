@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #c62368;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Trebuchet MS", sans-serif;
+}
+header{
+    color: rgb(255 , 255 , 255);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+.input-container{
+    width: 100%;
+    max-width: 650px;
+    position: relative;
+}
+input{
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 5px;
+    box-shadow: rgb(38 , 57 , 77) 0 20px 30px -10px;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-family: cursive;
+}
+.submit-icon{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+.submit-icon:hover{
+    scale: 2;
+    transition: all 0.5s ease;
+}
+.images-section{
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+.imagecontainer{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.imagecontainer img{
+    width: 100%;
+}
+.loader{
+    display: none;
+}
+.error{
+    display: none;
+}
+.loader2{
+    display: none;
+    width: 280px;
+}
