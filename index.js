@@ -1,4 +1,4 @@
-const Api_key = "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";
+// const Api_key = "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";
 let clkbtn = document.querySelector('.submit-icon');
 let inputelem = document.querySelector('.inpt');
 let imagesection = document.querySelector('.images-section');
